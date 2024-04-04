@@ -1,3 +1,12 @@
+// api key
+import config from "../key.js";
+
+const NAVERMAP_API_KEY = config.navermapapi;
+const mapScript = document.createElement("script");
+mapScript.src = `https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${NAVERMAP_API_KEY}`;
+document.head.appendChild(mapScript);
+
+// nav bar 색 변경
 const navbar = document.querySelector("#navbar");
 const header = document.querySelector("#tophead");
 const loginbtn = document.querySelector("login-btn");

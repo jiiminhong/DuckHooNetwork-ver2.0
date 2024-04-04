@@ -1,0 +1,237 @@
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PyeongChang-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+
+body {
+  font-family: "NanumSquare";
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 80px;
+  background-color: transparent;
+  transition: all var(--animation-duration) ease-in;
+}
+
+.navbar-sticky {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: "PyeongChangPeace-Bold";
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "PyeongChang-Bold";
+}
+
+.login-btn {
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+/* 헤더 */
+
+.carousel-inner {
+  width: 300vw;
+}
+
+.carousel-item {
+  width: 100vw;
+  float: left;
+}
+
+header {
+  /* height: 800px; */
+  height: 80%;
+  /* background-color: #ffcb05; */
+  background: linear-gradient(#ffcb05 90%, white);
+  margin-bottom: 200px;
+}
+
+.carousel-img {
+  padding: 5% 12% 5% 12%;
+}
+
+.header-margin {
+  height: 100px;
+}
+
+.tophead-img {
+  width: 500px;
+  height: 500px;
+}
+
+.tophead-text-wrap {
+  line-height: 80px;
+}
+
+.tophead-text-wrap > p {
+  font-family: "GmarketSansMedium";
+  margin: 0;
+}
+
+.tophead-text-wrap > p:first-child {
+  font-size: 30px;
+}
+
+.tophead-text-wrap > p:nth-child(2) {
+  font-size: 45px;
+  color: #5675e8;
+  font-weight: 700;
+}
+
+.tophead-text-wrap > p:last-child {
+  font-size: 100px;
+  font-family: "BagelFatOne-Regular";
+  color: #ff4f64;
+}
+
+/* main */
+
+.main-content {
+  /* margin: 150px 150px 150px 150px; */
+  width: 75%;
+}
+
+.main-title {
+  color: #00509d;
+  font-family: "PyeongChang-Bold";
+}
+
+.main-title > span {
+  font-size: 32px;
+}
+
+.main-title > button {
+  font-size: 16px;
+  color: #00509d;
+  border: solid 1px #00509d;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.main-title > button:hover {
+  color: white;
+  background-color: #00509d;
+  transition: 0.5s;
+}
+
+.schedule-p > a {
+  font-size: 26px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-schedule-content > p:nth-child(3) {
+  font-weight: bold;
+}
+
+.schedule-img {
+  width: 350px;
+  height: 300px;
+  text-align: center;
+}
+
+.main-foodmap-content,
+.main-taxi-content,
+.main-goods-content {
+  margin-top: 200px;
+}
+
+.map-wrap {
+  background-color: #ededed;
+  width: 650px;
+  height: 550px;
+}
+
+.hashtag-wrap {
+  /* width: 30%; */
+  width: 400px;
+}
+
+.hashtag-wrap > button {
+  font-size: 16px;
+  background-color: #ffcb05;
+  border-radius: 50px;
+  /* width: 380px; */
+  width: 100%;
+  height: 60px;
+}
+
+.hashtag-wrap > button:hover {
+  background-color: #ffdb57;
+}
+
+.list-group-item,
+.card-text {
+  font-size: 15px;
+}
+
+.card {
+  width: 18rem;
+  height: 30rem;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 18rem;
+}
+
+.card-btn {
+  font-size: 13px;
+  background-color: #ffcb05;
+  border-radius: 10px;
+  width: 150px;
+  /* height: 30px; */
+  height: 30px;
+}
+
+.card-btn:hover {
+  background-color: #ffdb57;
+}
+
+/* footer */
+footer {
+  height: 180px;
+  background-color: #ededed;
+  margin-top: 200px;
+}
+
+.footer-info {
+  color: #acacac;
+  font-size: 14px;
+}

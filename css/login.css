@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "PyeongChangPeace-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2")
+    format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PyeongChang-Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChang-Bold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url("https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css");
+
+body {
+  font-family: "NanumSquare";
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 80px;
+  /* background-color: #ffcb05; */
+  /* border-bottom: solid 1px black; */
+  transition: all var(--animation-duration) ease-in;
+}
+
+.navbar-sticky {
+  background-color: white;
+}
+
+.navbar-brand {
+  font-family: "PyeongChangPeace-Bold";
+  align-items: center;
+}
+
+.nav-link {
+  font-family: "PyeongChang-Bold";
+}
+
+.login-btn {
+  font-size: 16px;
+  background-color: transparent;
+  color: black;
+  border: solid 1px black;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+
+.login-btn:hover {
+  color: white;
+  background-color: black;
+  transition: 0.5s;
+}
+
+/* main */
+
+.login-label {
+  border-bottom: solid 2px #ffcb05;
+  font-size: 30px;
+}
+
+.submit-btn {
+  font-size: 16px;
+  background-color: #ffcb05;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+}
+
+.submit-btn:hover {
+  background-color: #ffdb57;
+  transition: 0.5s;
+}
+
+/* footer */
+footer {
+  height: 100px;
+}
+
+.footer-info > p {
+  font-size: 12px;
+}

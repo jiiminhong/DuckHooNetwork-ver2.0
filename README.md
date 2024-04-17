@@ -66,4 +66,14 @@
 | 로그인 화면 (login - nav, main, footer) |
 
 - 버튼 클릭 시 메인 화면으로 복귀
+  <br><br>
+  
+| ![](images/readme/readmeimg12.png) | ![](images/readme/readmeimg13.png) |
+| :-------------------------------: | :-------------------------------: |
+|      스케줄 화면 (schedule - main)      |  디테일 화면 (schedule - detail)  |
+
+- rest api 데이터를 리스트로 생성, 추가
+- 원하는 목록 클릭 시 해당 항목에 맞는 디테일 페이지로 이동
+- 선택한 공연/전시의 자세한 사항 확인 가능
+- 항목 인덱스에 따라 url 변경
   <br><br><br><br><br>

@@ -63,12 +63,20 @@ p {
 
 /* main */
 main {
-  margin-top: 120px;
+  margin-top: 80px;
   /* background-color: gray; */
 }
 
 .main-content {
   width: 75%;
+}
+
+.title {
+  font-size: 40px;
+  margin: 100px 0;
+  font-family: "PyeongChang-Bold";
+  border-bottom: solid 2px #ffcb05;
+  padding: 10px;
 }
 
 .listgroup {
@@ -88,4 +96,29 @@ main {
 
 .listgroup-item:last-child {
   border-bottom: solid 1px lightgray;
+}
+
+.schedule-item {
+  text-decoration: none;
+  color: black;
+}
+
+.schedule-item:hover {
+  color: #00509d;
+}
+
+.page {
+  margin: 100px 0;
+}
+
+/* footer */
+footer {
+  height: 180px;
+  background-color: #ededed;
+  margin-top: 100px;
+}
+
+.footer-info {
+  color: #acacac;
+  font-size: 14px;
 }

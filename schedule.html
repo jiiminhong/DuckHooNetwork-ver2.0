@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>덕후 네트워크</title>
     <link rel="stylesheet" href="../css/schedule.css" />
+    <link rel="stylesheet" href="../css/pagination.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -14,7 +15,7 @@
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <script type="module" src="js/apikey.js"></script>
   </head>
-  <body class="vw-100 vh-100">
+  <body class="vw-100 vh-100 overflow-auto">
     <!-- 네이게이션 바 -->
     <nav
       id="navbar"
@@ -48,7 +49,10 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <!-- 스케줄 -->
             <li class="nav-item fs-5 mx-3">
-              <a class="nav-link active" aria-current="page" href="#"
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="schedule.html"
                 >Schedule</a
               >
             </li>
@@ -81,13 +85,58 @@
 
     <!-- main -->
     <main class="container-responsive d-flex justify-content-center">
-      <div class="main-content d-flex justify-content-center">
+      <div
+        class="main-content d-flex flex-column justify-content-center align-items-center"
+      >
+        <div class="title">SCHEDULE</div>
+
+        <!-- ex -->
+        <div id="box"></div>
+
         <!-- <ul class="list-group list-group-flush w-75"></ul> -->
         <ul class="listgroup w-75"></ul>
+
+        <!-- <nav aria-label="Page navigation example" class="page">
+          <ul class="pagination">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+              </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+              </a>
+            </li>
+          </ul>
+        </nav> -->
+
+        <!-- <div class="pagination-container w-100 d-flex justify-content-center">
+          <div class="prev-button">이전</div>
+          <div class="number-button-wrapper">
+            <span class="number-button">1</span>
+          </div>
+          <div class="next-button">이후</div>
+        </div> -->
       </div>
     </main>
 
-    <h1>ex</h1>
+    <!-- footer -->
+    <footer class="w-100">
+      <div class="container-responsive">
+        <div class="footer-info m-5 p-4">
+          <p>서울특별시 금천구 가산디지털n로 / 대표: 김아나</p>
+          <p>010-123-4567</p>
+          <p><br />Copyright @jiiminhong All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="js/schedule.js"></script>
   </body>
 </html>
